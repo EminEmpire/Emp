@@ -256,3 +256,78 @@
   padding: 10px;
 }
 
+#clientsimg {
+  width: 619px;
+}
+
+#clientsimg {
+  width: 619px;
+}
+
+.banner {
+  background-color: #1B4A67;
+  color: white;
+  font-size: 30px;
+  font-family: 'Bruno Ace SC', serif;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  position: relative;
+}
+
+.banner .text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: slide 100s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive styles */
+
+@media (max-width: 1200px) {
+  .banner {
+    font-size: 25px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner {
+    font-size: 20px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    font-size: 18px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    font-size: 16px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .banner {
+    font-size: 14px;
+    height: 25px;
+  }
+}
+

@@ -1,0 +1,28 @@
+# Allow all bots to crawl the website
+User-agent: *
+Allow: /
+
+# Disallow certain directories that are not important for SEO
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /junk/
+
+# Block specific files that are not relevant for SEO
+Disallow: /private.html
+Disallow: /login.html
+
+# Allow crawling of all important directories
+Allow: /content/
+Allow: /blog/
+Allow: /products/
+
+# Allow bots to access CSS, JS, and image files
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+
+# Sitemap location
+Sitemap: https://eminempire.com/sitemap.xml

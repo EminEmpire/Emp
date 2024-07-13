@@ -1,0 +1,40 @@
+.custom-accordion {
+  font-family: ABeeZee, sans-serif;
+}
+
+.custom-accordion-item {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.custom-accordion-header {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-accordion-body {
+  padding: 0 1rem;
+  background-color: #fff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.custom-accordion-body p {
+  margin: 1rem 0;
+}
+
+.chevron-icon {
+  transition: transform 0.4s ease;
+}
+
+.custom-accordion-header.active .chevron-icon {
+  transform: rotate(180deg);
+}
+
