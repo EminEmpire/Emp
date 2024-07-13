@@ -1,3 +1,7 @@
+body, html {
+  overflow-x: hidden;
+}
+
 #logomain {
   background: url("../../assets/img/logoinv.png") center / contain no-repeat;
   height: 100px;
@@ -257,11 +261,8 @@
 }
 
 #clientsimg {
-  width: 619px;
-}
-
-#clientsimg {
-  width: 619px;
+  width: 760px;
+  overflow: hidden;
 }
 
 .banner {
