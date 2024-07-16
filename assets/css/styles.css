@@ -332,3 +332,9 @@ body, html {
   }
 }
 
+.bannerservice {
+  background: repeating-linear-gradient(-16deg, #183b55 0%, #317d9f 53%), var(--bs-emphasis-color);
+  display: flex;
+  overflow: hidden;
+}
+
