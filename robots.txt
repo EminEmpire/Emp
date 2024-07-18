@@ -24,5 +24,8 @@ Allow: /*.jpeg$
 Allow: /*.png$
 Allow: /*.gif$
 
+# Ensure all HTML files are crawlable
+Allow: /*.html$
+
 # Sitemap location
 Sitemap: https://eminempire.com/sitemap.xml
