@@ -50,23 +50,16 @@
     <link rel="stylesheet" href="assets/css/Swiper-Slider-Card-For-Blog-Or-Product-untitled.css">
     <link rel="stylesheet" href="assets/css/Team-team.css">
     <link rel="stylesheet" href="assets/css/Team.css">
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16645781435">
-    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16645781435"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
+    
       gtag('config', 'AW-16645781435');
     </script>
-
-    <!-- Google tag (gtag.js) event -->
-    <script>
-      gtag('event', 'ads_conversion_Submit_lead_form_1', {
-        // <event_parameters>
-      });
-    </script>
+    
 
 </head>
 
@@ -202,6 +195,24 @@
     <script src="assets/js/accord.js"></script>
     <script src="assets/js/Swiper-Slider-Card-For-Blog-Or-Product-swiper.min.js"></script>
     <script src="assets/js/Portfolio-harley-touchSwipe.js"></script>
+    <script>
+      window.addEventListener('load', function() {
+        jQuery('.btn:contains(Send)').click(function() {
+           gtag('event', 'conversion', {'send_to': 'AW-16645781435/EJWRCNe488YZELvvqYE-'});
+        });
+      jQuery('[href*="tel:"]').click(function() {
+         gtag('event', 'conversion', {'send_to': 'AW-16645781435/gj_tCNG488YZELvvqYE-'});
+        });
+          jQuery('[href*="//wa.me/"]').click(function() {
+          gtag('event', 'conversion', {'send_to': 'AW-16645781435/ihywCM6488YZELvvqYE-'});
+        });
+          jQuery('[href*="mailto:"]').click(function() {
+        gtag('event', 'conversion', {'send_to': 'AW-16645781435/mp-fCNS488YZELvvqYE-'});
+        });
+      })
+    </script>
+
+
 </body>
 
 </html>
